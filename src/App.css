@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.create_btn {
+  width: 100px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(177, 174, 174);
+}
+
+.create_btn:hover {
+  border: none;
+  background-color: rgb(187, 164, 140);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 95%;
+}
+.select {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.First_Name, .Last_Name, .Email, .Avatar_URL{
+  width: 250px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.First_Name, .Last_Name {
+  text-transform: capitalize;
+}
+.save_btn {
+  width: 100px;
+  height: 25px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(177, 174, 174);
+}
+.save_btn:hover {
+  border: none;
+  background-color: rgb(187, 164, 140);
+  color: white;
+}
+input:required:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+
+
